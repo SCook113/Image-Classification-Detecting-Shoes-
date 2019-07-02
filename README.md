@@ -4,6 +4,9 @@ In this project I wanted to create an image classifier that can detect shoes on 
 
 I downloaded lots of pictures of shoes and photography not containing shoes from google images and other sources.
 After that I trained a convolutional neural network using data augmentation.
+
+After that I used transfer learning to build a top model on the pretrained VGG16 model.
+
 I trained the network on 4927 pictures (with roughly half being pictures of shoes) and validated the model on about 540 pictures while training (also half-half).
 
 The pictures are too big to push to github so I didn't.
